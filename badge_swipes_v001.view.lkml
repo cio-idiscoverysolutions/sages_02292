@@ -27,8 +27,17 @@ view: badge_swipes_v001 {
     sql: ${TABLE}.companyname ;;
   }
 
-  dimension: date {
-    type: date
+  dimension_group: date {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      week,
+      month,
+      quarter,
+      year
+    ]
     sql: ${TABLE}.Date ;;
   }
 
