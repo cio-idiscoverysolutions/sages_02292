@@ -28,7 +28,7 @@ view: badge_swipes_v001 {
   }
 
   dimension: date {
-    type: string
+    type: date
     sql: ${TABLE}.Date ;;
   }
 
@@ -168,7 +168,7 @@ view: badge_swipes_v001 {
   }
 
   dimension: when {
-    type: string
+    type: date_time
     sql: ${TABLE}."When" ;;
   }
 
