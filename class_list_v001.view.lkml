@@ -32,6 +32,12 @@ view: class_list_v001 {
     sql: ${TABLE}.ids_name ;;
   }
 
+  dimension: name_norm_ind {
+    type: string
+    sql: ${TABLE}.name_norm_ind ;;
+  }
+
+
   dimension_group: ids_date_created {
     type: time
     timeframes: [
