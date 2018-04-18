@@ -12,7 +12,3 @@ datagroup: sages_02292_cdf_default_datagroup {
 }
 
 persist_with: sages_02292_cdf_default_datagroup
-
-explore: badge_swipes_v001 {
-  label: "badge_swipes_v001"
-  from:  badge_swipes_v001 }
