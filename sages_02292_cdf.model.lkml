@@ -24,3 +24,7 @@ explore: badge_swipes_employees_day_in_the_life_v001 {
 explore: class_list_v001 {
   label: "class_list_v001"
   from:  class_list_v001 }
+
+explore: class_list_named_opt_in_only_v001 {
+  label: "class_list_named_opt_in_only_v001"
+  from:  class_list_named_opt_in_only_v001 }
