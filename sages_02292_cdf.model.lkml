@@ -20,3 +20,7 @@ explore: badge_swipes_employees_v001 {
 explore: badge_swipes_employees_day_in_the_life_v001 {
   label: "badge_swipes_employees_day_in_the_life_v001"
   from:  badge_swipes_employees_day_in_the_life_v001 }
+
+explore: class_list_v001 {
+  label: "class_list_v001"
+  from:  class_list_v001 }
