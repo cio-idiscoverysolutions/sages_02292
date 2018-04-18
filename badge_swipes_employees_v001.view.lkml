@@ -87,6 +87,7 @@ view: badge_swipes_employees_v001 {
     timeframes: [
       raw,
       time,
+      time_of_day,
       date,
       week,
       month,
