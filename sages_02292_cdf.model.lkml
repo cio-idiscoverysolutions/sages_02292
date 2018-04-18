@@ -16,3 +16,7 @@ persist_with: sages_02292_cdf_default_datagroup
 explore: badge_swipes_employees_v001 {
   label: "badge_swipes_employees_v001"
   from:  badge_swipes_employees_v001 }
+
+explore: badge_swipes_employees_day_in_the_life_v001 {
+  label: "badge_swipes_employees_day_in_the_life_v001"
+  from:  badge_swipes_employees_day_in_the_life_v001 }
