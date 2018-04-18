@@ -27,6 +27,11 @@ view: class_list_v001 {
     sql: ${TABLE}.Email ;;
   }
 
+  dimension: ids_name {
+    type: string
+    sql: ${TABLE}.ids_name ;;
+  }
+
   dimension_group: ids_date_created {
     type: time
     timeframes: [

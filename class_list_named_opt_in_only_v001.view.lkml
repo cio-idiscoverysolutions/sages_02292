@@ -22,6 +22,12 @@ view: class_list_named_opt_in_only_v001 {
     sql: ${TABLE}.companyname ;;
   }
 
+  dimension: ids_name {
+    type: string
+    sql: ${TABLE}.ids_name ;;
+  }
+
+
   dimension: email {
     type: string
     sql: ${TABLE}.Email ;;
