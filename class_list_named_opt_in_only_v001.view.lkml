@@ -27,6 +27,11 @@ view: class_list_named_opt_in_only_v001 {
     sql: ${TABLE}.ids_name ;;
   }
 
+  dimension: Okta_Email {
+    type:  string
+    sql:  ${TABLE}.Okta_Email ;;
+  }
+
 
   dimension: email {
     type: string
