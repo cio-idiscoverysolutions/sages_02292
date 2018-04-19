@@ -143,6 +143,34 @@ view: class_list_v001 {
     sql: ${TABLE}."Termination Date" ;;
   }
 
+
+  dimension: badge_swipes_prod_date {
+    type: date
+    sql: ${TABLE}.badge_swipes_prod_date ;;
+  }
+
+  dimension: Okta_prod_date {
+    type: date
+    sql: ${TABLE}.Okta_prod_date ;;
+  }
+
+  dimension: Cisco_swipes_prod_date {
+    type: date
+    sql: ${TABLE}.Cisco_prod_date ;;
+  }
+
+
+  dimension: Verint_prod_date {
+    type: date
+    sql: ${TABLE}.Verint_prod_date ;;
+  }
+
+
+  dimension: SAP_prod_date {
+    type: date
+    sql: ${TABLE}.SAP_prod_date ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [id, name, additional_name, companyname]
