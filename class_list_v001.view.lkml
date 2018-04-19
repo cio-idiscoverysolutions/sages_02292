@@ -29,6 +29,11 @@ view: class_list_v001 {
     sql: ${TABLE}.companyname ;;
   }
 
+  dimension: Okta_Email {
+    type:  string
+    sql:  ${TABLE}.Okta_Email ;;
+  }
+
   dimension: email {
     type: string
     sql: ${TABLE}.Email ;;
