@@ -144,7 +144,7 @@ view: class_list_v001 {
   }
 
 
-  dimension: badge_swipes_prod_date {
+  dimension: Badge_swipes_prod_date {
     type: date
     sql: ${TABLE}.badge_swipes_prod_date ;;
   }
@@ -154,7 +154,7 @@ view: class_list_v001 {
     sql: ${TABLE}.Okta_prod_date ;;
   }
 
-  dimension: Cisco_swipes_prod_date {
+  dimension: Cisco_prod_date {
     type: date
     sql: ${TABLE}.Cisco_prod_date ;;
   }
