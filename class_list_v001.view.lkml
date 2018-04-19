@@ -15,7 +15,7 @@ view: class_list_v001 {
 
   dimension: Okta_name {
     type: string
-    sql: ${TABLE}."Okta Name" ;;
+    sql: ${TABLE}.okta_name ;;
   }
 
 
