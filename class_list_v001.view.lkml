@@ -12,6 +12,13 @@ view: class_list_v001 {
     sql: ${TABLE}."Additional Name" ;;
   }
 
+
+  dimension: Okta_name {
+    type: string
+    sql: ${TABLE}."Okta Name" ;;
+  }
+
+
   dimension: companycode {
     type: number
     sql: ${TABLE}.companycode ;;
