@@ -28,3 +28,7 @@ explore: class_list_v001 {
 explore: class_list_named_opt_in_only_v001 {
   label: "class_list_named_opt_in_only_v001"
   from:  class_list_named_opt_in_only_v001 }
+
+explore: okta_employees_v001 {
+  label: "okta_employees_v001"
+  from:  okta_employees_v001 }
