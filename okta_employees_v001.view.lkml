@@ -162,6 +162,7 @@ view: okta_employees_v001 {
       time,
       date,
       day_of_week,
+      time_of_day,
       week,
       month,
       quarter,
