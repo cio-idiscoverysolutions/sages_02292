@@ -161,6 +161,7 @@ view: okta_employees_v001 {
       raw,
       time,
       date,
+      day_of_week,
       week,
       month,
       quarter,
