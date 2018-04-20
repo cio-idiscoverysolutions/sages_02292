@@ -16,6 +16,11 @@ view: okta_employees_v001 {
     sql: ${TABLE}."actor id" ;;
   }
 
+  dimension: ids_plaintiff_type {
+    type: string
+    sql: ${TABLE}."ids plaintiff type" ;;
+  }
+
   dimension: actor_type {
     type: string
     sql: ${TABLE}."actor type" ;;
