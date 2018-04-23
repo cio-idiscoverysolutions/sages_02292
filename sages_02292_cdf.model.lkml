@@ -35,5 +35,8 @@ explore: okta_employees_v001 {
 
 explore: class_list_okta_named_opt_in_only_v001 {
   label: "class_list_okta_named_opt_in_only_v001"
-  from:  class_list_okta_named_opt_in_only_v001
-}
+  from:  class_list_okta_named_opt_in_only_v001 }
+
+  explore: cisco_v001 {
+    label: "cisco_v001"
+    from:  cisco_v001 }
