@@ -18,6 +18,10 @@ view: class_list_v001 {
     sql: ${TABLE}.okta_name ;;
   }
 
+  dimension: BadgeSwipes_name {
+    type: string
+    sql: ${TABLE}.BadgeSwipes_name ;;
+  }
 
   dimension: companycode {
     type: number
