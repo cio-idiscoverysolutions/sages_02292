@@ -620,6 +620,54 @@ view: cisco_v001 {
     sql: ${TABLE}.wasCallQueued ;;
   }
 
+  dimension_group: ids_dateTimeOrigination {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      day_of_week,
+      time_of_day,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.ids_dateTimeOrigination ;;
+  }
+
+  dimension_group: ids_dateTimeConnect {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      day_of_week,
+      time_of_day,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.ids_dateTimeConnect ;;
+  }
+
+  dimension_group: ids_dateTimeDisconnect {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      day_of_week,
+      time_of_day,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.ids_dateTimeDisconnect ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [orig_device_name, dest_device_name, orig_mobile_device_name, dest_mobile_device_name]
