@@ -44,6 +44,13 @@ view: class_list_named_opt_in_only_v001 {
     sql:  ${TABLE}.Verint_v15_id ;;
   }
 
+  dimension:Cisco_id {
+    type:  string
+    sql:  ${TABLE}.Cisco_id ;;
+  }
+
+
+
 
   dimension: email {
     type: string
