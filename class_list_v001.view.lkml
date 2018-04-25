@@ -23,6 +23,24 @@ view: class_list_v001 {
     sql: ${TABLE}.BadgeSwipes_name ;;
   }
 
+
+  dimension: Verint_v10_id {
+    type:  string
+    sql:  ${TABLE}.Verint_v10_id ;;
+  }
+
+
+  dimension: Verint_v15_id {
+    type:  string
+    sql:  ${TABLE}.Verint_v15_id ;;
+  }
+
+  dimension:Cisco_id {
+    type:  string
+    sql:  ${TABLE}.Cisco_id ;;
+  }
+
+
   dimension: companycode {
     type: number
     sql: ${TABLE}.companycode ;;
