@@ -24,15 +24,15 @@ view: class_list_v001 {
   }
 
 
-  dimension: Verint_v10_id {
+  dimension: Verint_v10_id_v2 {
     type:  string
-    sql:  ${TABLE}.Verint_v10_id ;;
+    sql:  ${TABLE}.Verint_v10_id_v2 ;;
   }
 
 
-  dimension: Verint_v15_id {
+  dimension: Verint_v15_id_v2 {
     type:  string
-    sql:  ${TABLE}.Verint_v15_id ;;
+    sql:  ${TABLE}.Verint_v15_id_v2 ;;
   }
 
   dimension:Cisco_id {
