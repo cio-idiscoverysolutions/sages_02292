@@ -33,6 +33,18 @@ view: class_list_named_opt_in_only_v001 {
   }
 
 
+  dimension: Verint_v10_id {
+    type:  string
+    sql:  ${TABLE}.Verint_v10_id ;;
+  }
+
+
+  dimension: Verint_v15_id {
+    type:  string
+    sql:  ${TABLE}.Verint_v15_id ;;
+  }
+
+
   dimension: email {
     type: string
     sql: ${TABLE}.Email ;;
