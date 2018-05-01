@@ -17,6 +17,11 @@ explore: badge_swipes_employees_v001 {
   label: "badge_swipes_employees_v001"
   from:  badge_swipes_employees_v001 }
 
+
+explore: verint_named_opt_in_only_v001 {
+  label: "verint_named_opt_in_only_v001"
+  from:  verint_named_opt_in_only_v001 }
+
 explore: badge_swipes_employees_day_in_the_life_v001 {
   label: "badge_swipes_employees_day_in_the_life_v001"
   from:  badge_swipes_employees_day_in_the_life_v001 }
