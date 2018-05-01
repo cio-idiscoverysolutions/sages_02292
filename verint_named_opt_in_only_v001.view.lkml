@@ -63,8 +63,19 @@ view: verint_named_opt_in_only_v001 {
     sql: ${TABLE}.KeyCount ;;
   }
 
-  dimension: locallogdatetime {
-    type: string
+  dimension_group: locallogdatetime {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      day_of_week,
+      time_of_day,
+      week,
+      month,
+      quarter,
+      year
+    ]
     sql: ${TABLE}.locallogdatetime ;;
   }
 
