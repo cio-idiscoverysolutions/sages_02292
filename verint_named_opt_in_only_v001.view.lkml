@@ -31,15 +31,27 @@ view: verint_named_opt_in_only_v001 {
     sql: ${TABLE}.Duration ;;
   }
 
-  dimension: frame_date {
-    type: string
-    sql: ${TABLE}.FrameDate ;;
-  }
 
   dimension: frame_time {
     type: string
     sql: ${TABLE}.FrameTime ;;
   }
+
+  dimension_group: frame_date {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      day_of_week,
+      time_of_day,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.FrameDate ;;
+}
 
   dimension: ids_name {
     type: string
