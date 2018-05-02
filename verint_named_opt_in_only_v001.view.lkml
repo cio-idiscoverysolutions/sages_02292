@@ -79,6 +79,25 @@ view: verint_named_opt_in_only_v001 {
     sql: ${TABLE}.locallogdatetime ;;
   }
 
+  dimension_group: ids_locallogdatetime_endtime {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      day_of_week,
+      time_of_day,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.ids_locallogdatetime_endtime ;;
+  }
+
+
+
+
   dimension: log_time {
     type: string
     sql: ${TABLE}.LogTime ;;
