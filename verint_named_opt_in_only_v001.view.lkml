@@ -16,6 +16,12 @@ view: verint_named_opt_in_only_v001 {
     sql: ${TABLE}.Application ;;
   }
 
+  dimension: ids_ditl_id {
+    type: number
+    sql: ${TABLE}.ids_ditl_id ;;
+  }
+
+
   dimension: basewintext {
     type: string
     sql: ${TABLE}.Basewintext ;;
