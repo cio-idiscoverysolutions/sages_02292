@@ -146,6 +146,7 @@ view: cisco_call_log_v001 {
     timeframes: [
       raw,
       time,
+      time_of_day,
       date,
       day_of_week,
       week,
@@ -161,6 +162,7 @@ view: cisco_call_log_v001 {
     timeframes: [
       raw,
       time,
+      time_of_day,
       date,
       day_of_week,
       week,
