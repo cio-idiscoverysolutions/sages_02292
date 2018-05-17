@@ -325,6 +325,12 @@ view: cisco_v001 {
     sql: ${TABLE}.ids_source ;;
   }
 
+  dimension: ids_name {
+    type: string
+    sql: ${TABLE}.ids_name ;;
+  }
+
+
   dimension: incoming_protocol_call_ref {
     type: string
     sql: ${TABLE}.incomingProtocolCallRef ;;
